@@ -1,0 +1,15 @@
+# KiCad backups/caches
+*.bak
+*.bck
+*.tmp
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+.auto_save
+fp-info-cache
+# Generated outputs
+hardware/outputs/
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
