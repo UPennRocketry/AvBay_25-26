@@ -1431,309 +1431,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Avionics_Devices:TBS_Unify_Pro_5G8_HV_25-800mW_Video_Transmitter_(SMA)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "VT"
-				(at -8.89 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TBS_Unify_pro_Video_Transmitter"
-				(at 5.334 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.shopify.com/s/files/1/0322/0783/1175/files/tbs-unify-pro-5g8-manual.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TBS_Unify_Pro_5G8_HV_25-800mW_Video_Transmitter_(SMA)_0_1"
-				(rectangle
-					(start -10.16 6.35)
-					(end 8.89 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TBS_Unify_Pro_5G8_HV_25-800mW_Video_Transmitter_(SMA)_1_1"
-				(pin power_out line
-					(at -12.7 3.81 0)
-					(length 2.54)
-					(name "5V_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 3.81 180)
-					(length 2.54)
-					(name "AUDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 1.27 180)
-					(length 2.54)
-					(name "VIDEO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -1.27 180)
-					(length 2.54)
-					(name "ANT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Antenna"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE"
-				(at -1.905 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Antenna_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Battery"
 			(pin_numbers
 				(hide yes)
@@ -3219,6 +2916,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:XL1509-5.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.112 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL1509-5.0"
+				(at 5.842 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050422_XLSEMI-XL1509-5-0E1_C61063.pdf"
+				(at 2.54 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buck DC/DC Converter, 2A, 5V Output Voltage, 7-40V Input Voltage"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Buck DC/DC Converter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XL1509-5.0_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "XL1509-5.0_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NPN"
 			(pin_numbers
 				(hide yes)
@@ -4019,6 +3945,12 @@
 		(uuid "2ec683be-8e75-4965-bdb4-277ffd56127f")
 	)
 	(junction
+		(at 185.42 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "343104e4-ad39-4da4-997c-af1b8b8fa33b")
+	)
+	(junction
 		(at 104.14 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4029,6 +3961,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b4934e6-b2b3-43b3-9a4a-1eb036b415a1")
+	)
+	(junction
+		(at 200.66 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "795ca818-412c-40b9-9f4c-95e4f28da930")
 	)
 	(junction
 		(at 214.63 105.41)
@@ -4043,10 +3981,10 @@
 		(uuid "c15ddb1e-a81a-4e6b-b2b4-b7e884025cb9")
 	)
 	(junction
-		(at 199.39 134.62)
+		(at 166.37 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d714f7f9-e28e-4237-bcf3-4fb2976fd7ae")
+		(uuid "d3b433d8-d7c7-4b49-bc14-e379f3534625")
 	)
 	(junction
 		(at 143.51 140.97)
@@ -4076,6 +4014,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 134.62) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f0a9c5-0ea8-4a7f-b28a-06a75c4fb311")
+	)
+	(wire
+		(pts
 			(xy 38.1 48.26) (xy 59.69 48.26)
 		)
 		(stroke
@@ -4093,6 +4041,16 @@
 			(type default)
 		)
 		(uuid "0a0fd322-c0f7-4af1-828f-629d10406dbd")
+	)
+	(wire
+		(pts
+			(xy 166.37 130.81) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b84ddac-5f75-473b-a2bc-f8ba251fe5d2")
 	)
 	(wire
 		(pts
@@ -4156,13 +4114,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 175.26 129.54)
+			(xy 205.74 130.81) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a077f9d-1637-4e93-be0d-8c19ebcee2ce")
+		(uuid "185278f6-9e92-4bd8-96f7-825e730a8cab")
 	)
 	(wire
 		(pts
@@ -4193,6 +4151,16 @@
 			(type default)
 		)
 		(uuid "2306d2f4-9730-4f7b-bb26-06f0119fb0ce")
+	)
+	(wire
+		(pts
+			(xy 185.42 149.86) (xy 176.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2384f64c-5928-458f-a27e-5a3d68c7c2ed")
 	)
 	(wire
 		(pts
@@ -4253,16 +4221,6 @@
 			(type default)
 		)
 		(uuid "4112a384-f04b-4c0c-8c06-78bfec8f6c6f")
-	)
-	(wire
-		(pts
-			(xy 227.33 142.24) (xy 227.33 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418b821b-23cc-4199-baf7-010372cc56a9")
 	)
 	(wire
 		(pts
@@ -4346,7 +4304,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 149.86) (xy 175.26 149.86)
+			(xy 160.02 149.86) (xy 166.37 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4363,6 +4321,16 @@
 			(type default)
 		)
 		(uuid "56e5c69b-e93b-4911-beb7-a1c9f77318d5")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 175.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575a3ede-4cb2-45a0-82d9-fca1911f9333")
 	)
 	(wire
 		(pts
@@ -4416,16 +4384,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 134.62) (xy 199.39 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61be222f-4819-48a9-82b0-48611b3b40ff")
-	)
-	(wire
-		(pts
 			(xy 185.42 29.21) (xy 185.42 30.48)
 		)
 		(stroke
@@ -4433,26 +4391,6 @@
 			(type default)
 		)
 		(uuid "67ba5297-8601-48d9-9b47-5a31b339d4e7")
-	)
-	(wire
-		(pts
-			(xy 200.66 140.97) (xy 200.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b8f6a52-3159-4ed8-9536-f1ee7929068b")
-	)
-	(wire
-		(pts
-			(xy 199.39 132.08) (xy 200.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b93f77c-92c1-4363-9530-f4e5b677bf29")
 	)
 	(wire
 		(pts
@@ -4496,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 135.89) (xy 160.02 132.08)
+			(xy 160.02 135.89) (xy 160.02 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4536,16 +4474,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 140.97) (xy 200.66 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87f9183d-d675-413d-9317-99a9dfc38a08")
-	)
-	(wire
-		(pts
 			(xy 96.52 43.18) (xy 96.52 71.12)
 		)
 		(stroke
@@ -4553,16 +4481,6 @@
 			(type default)
 		)
 		(uuid "8a5f50cb-9ac8-47fc-855b-9ab0e94bbba0")
-	)
-	(wire
-		(pts
-			(xy 222.25 135.89) (xy 224.79 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fe31341-ea5a-4029-a5da-ae28e2fe5980")
 	)
 	(wire
 		(pts
@@ -4666,33 +4584,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 132.08) (xy 175.26 132.08)
+			(xy 160.02 125.73) (xy 166.37 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2418280-3254-4187-bb0b-4451418672ab")
-	)
-	(wire
-		(pts
-			(xy 196.85 134.62) (xy 199.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95d969f-2054-40e3-b2fd-8905982a4edd")
-	)
-	(wire
-		(pts
-			(xy 222.25 142.24) (xy 227.33 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ff93c7-2298-4fad-a9d4-7f44de090a9b")
 	)
 	(wire
 		(pts
@@ -4753,16 +4651,6 @@
 			(type default)
 		)
 		(uuid "b2009f40-4285-4540-8569-a56d4d56aae6")
-	)
-	(wire
-		(pts
-			(xy 185.42 139.7) (xy 185.42 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8df5936-1df4-4a2d-9032-208b990609f5")
 	)
 	(wire
 		(pts
@@ -4856,6 +4744,26 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ebddbe-51d2-45ab-a3cd-76e71e025122")
+	)
+	(wire
+		(pts
+			(xy 200.66 130.81) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b06d16-e5a3-4ecd-a3cc-5205c345ee4e")
+	)
+	(wire
+		(pts
 			(xy 214.63 110.49) (xy 220.98 110.49)
 		)
 		(stroke
@@ -4876,13 +4784,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 125.73) (xy 175.26 125.73)
+			(xy 185.42 149.86) (xy 185.42 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0dd7535-4336-427e-bb08-aecaddec2edb")
+		(uuid "cdebfe4e-79a1-4535-bc98-19fb4de1f14a")
 	)
 	(wire
 		(pts
@@ -4913,6 +4821,26 @@
 			(type default)
 		)
 		(uuid "d2f99c3b-0035-489c-9796-9886071f419e")
+	)
+	(wire
+		(pts
+			(xy 175.26 130.81) (xy 166.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2ad81c-cb8f-4f50-b3ad-55521d6331da")
+	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 195.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc4606f-25cd-4420-b873-e493686b4d49")
 	)
 	(wire
 		(pts
@@ -5118,89 +5046,6 @@
 			(project ""
 				(path "/8f2bd258-43dc-4f84-bd90-cfc0b0a1167e"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Avionics_Devices:TBS_Unify_Pro_5G8_HV_25-800mW_Video_Transmitter_(SMA)")
-		(at 187.96 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d6a5a6c-5393-4603-a541-aaeada5d8fdb")
-		(property "Reference" "VT1"
-			(at 187.325 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBS_Unify_pro_Video_Transmitter"
-			(at 187.325 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.shopify.com/s/files/1/0322/0783/1175/files/tbs-unify-pro-5g8-manual.pdf"
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ecbd855d-7342-4a52-9a61-939a1531078a")
-		)
-		(pin "3"
-			(uuid "6e38c1cd-e641-4efd-b646-f9271ff6dc2f")
-		)
-		(pin "6"
-			(uuid "3a431e51-9a59-4492-b274-bfcab4a4ec19")
-		)
-		(pin "2"
-			(uuid "d1c6b2f1-20a9-42f1-84f2-db581ba1fce2")
-		)
-		(pin "5"
-			(uuid "6412c646-2183-4fe9-a0de-237d56b98a26")
-		)
-		(pin "1"
-			(uuid "6bf1424d-0d00-46eb-9561-622951768897")
-		)
-		(pin "7"
-			(uuid "27a88c8e-eb24-4196-b94f-fa131bb5ad0b")
-		)
-		(instances
-			(project ""
-				(path "/8f2bd258-43dc-4f84-bd90-cfc0b0a1167e"
-					(reference "VT1")
 					(unit 1)
 				)
 			)
@@ -5443,7 +5288,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 139.7 0)
+		(at 185.42 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5452,7 +5297,7 @@
 		(fields_autoplaced yes)
 		(uuid "32ece31b-49d0-4e48-a751-9953ce0c7541")
 		(property "Reference" "#PWR01"
-			(at 187.96 146.05 0)
+			(at 185.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 144.78 0)
+			(at 185.42 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 139.7 0)
+			(at 185.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 139.7 0)
+			(at 185.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 139.7 0)
+			(at 185.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5490,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 135.89 0)
+		(at 226.06 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5654,7 +5499,7 @@
 		(fields_autoplaced yes)
 		(uuid "58d19cea-e511-455f-9f37-15ef7c6052de")
 		(property "Reference" "#PWR05"
-			(at 224.79 142.24 0)
+			(at 226.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 140.97 0)
+			(at 226.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 135.89 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 135.89 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 135.89 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,73 +5687,6 @@
 			(project ""
 				(path "/8f2bd258-43dc-4f84-bd90-cfc0b0a1167e"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna")
-		(at 199.39 154.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fff5f12-f20b-4f00-84e4-e4f38acb1a78")
-		(property "Reference" "AE1"
-			(at 201.93 153.0349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Stubby_5.8GH_Antenna"
-			(at 201.93 155.5749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.progressiverc.com/collections/antennas/products/truerc-singularity-5-8ghz-stubby-antenna-for-dji-hd-fpv?variant=39595139465351"
-			(at 199.39 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 199.39 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2554cb2-e7a8-4ed7-b6cf-cb37bc73daba")
-		)
-		(instances
-			(project ""
-				(path "/8f2bd258-43dc-4f84-bd90-cfc0b0a1167e"
-					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -6102,7 +5880,7 @@
 	)
 	(symbol
 		(lib_id "Avionics_Devices:Runcam_Phoenix_Pro_2")
-		(at 217.17 139.7 180)
+		(at 210.82 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6111,15 +5889,15 @@
 		(fields_autoplaced yes)
 		(uuid "8dcdc5e5-d106-4997-b25e-b155379f1061")
 		(property "Reference" "CAM1"
-			(at 213.995 128.27 0)
+			(at 213.995 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Phoenix_2_Pro_Camera"
-			(at 213.995 130.81 0)
+		(property "Value" "Runcam6"
+			(at 213.995 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +5905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 139.7 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +5914,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.runcam.com/download/Phoenix2/Phoenix_2_Manual.pdf"
-			(at 217.17 139.7 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +5923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 139.7 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +6834,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 180.34 149.86 90)
+		(at 171.45 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7064,7 +6842,7 @@
 		(dnp no)
 		(uuid "d4757c77-a012-4afb-9a1e-d72b61ba4fa7")
 		(property "Reference" "BT6"
-			(at 180.594 146.558 90)
+			(at 171.704 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +6850,7 @@
 			)
 		)
 		(property "Value" "2S_Li-Ion_3500mAh"
-			(at 181.102 153.416 90)
+			(at 172.212 153.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +6858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.816 149.86 90)
+			(at 169.926 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +6867,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.getfpv.com/zohd-lionpack-18650-2s1p-3500mah-7-4v-li-ion-battery.html"
-			(at 178.816 149.86 90)
+			(at 169.926 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,7 +6876,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 180.34 149.86 0)
+			(at 171.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,6 +7102,92 @@
 			(project "AvBay_25-26"
 				(path "/8f2bd258-43dc-4f84-bd90-cfc0b0a1167e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:XL1509-5.0")
+		(at 185.42 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eae9a7f4-8d75-4289-be80-0b7ae58bdb37")
+		(property "Reference" "U1"
+			(at 185.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL1509-5.0"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 185.42 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050422_XLSEMI-XL1509-5-0E1_C61063.pdf"
+			(at 187.96 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck DC/DC Converter, 2A, 5V Output Voltage, 7-40V Input Voltage"
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52b400e7-1e1b-443e-8885-8d13de5b5e7a")
+		)
+		(pin "7"
+			(uuid "42adcf03-8bfe-49b7-921c-af01c59b6ce1")
+		)
+		(pin "8"
+			(uuid "38b65987-33e4-4320-b10d-ac1b45c64f12")
+		)
+		(pin "6"
+			(uuid "88675607-7839-4ca7-880b-1053798b5c9e")
+		)
+		(pin "4"
+			(uuid "796eb666-5012-4091-9cfe-c36cda6e1e4c")
+		)
+		(pin "5"
+			(uuid "afbeda95-0404-4532-ba0d-4d7e2d10e948")
+		)
+		(pin "1"
+			(uuid "5349f8a1-4ebc-45ea-b8f2-6b284f2a579c")
+		)
+		(pin "3"
+			(uuid "ef636b12-65cf-4b82-9adb-5a72918a4370")
+		)
+		(instances
+			(project ""
+				(path "/8f2bd258-43dc-4f84-bd90-cfc0b0a1167e"
+					(reference "U1")
 					(unit 1)
 				)
 			)
